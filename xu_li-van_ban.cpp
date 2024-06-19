@@ -8,15 +8,6 @@ int main(){
     while(cin >> s) vs.push_back(s);
     for(int i = 0; i < vs.size(); ++i) for(int j = 0; j < vs[i].length(); j++) vs[i][j] = tolower(vs[i][j]); 
 	
-//	string s;
-//	getline(cin, s);
-//	for(int i = 0; i < s.size(); i++){
-//		s[i] = tolower(s[i]);
-//	}
-//	string tmp;
-//	stringstream ss(s);
-//	vector<string> v;
-//	while(ss >> tmp) v.push_back(tmp);
 	
 	bool  check = 1; 
 	for(string  x : vs ){
